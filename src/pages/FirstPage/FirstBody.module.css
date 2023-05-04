@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: rgb(5, 80, 146);
+    color: white;
+}
+
+h1,
+h2 {
+    display: inline;
+}
+
+h1 {
+    text-indent: 70px;
+    margin-top: 60px;
+    padding: 40px;
+    padding-right: 450px;
+}
+
+h2 {
+    padding-left: 50px;
+}
+
+.boxf img {
+    width: 400px;
+    height: 200px;
+    transition: transform 0.5s;
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.box {
+    margin: auto;
+    background-color: black;
+}
+
+.boxf img:hover {
+    transform: translate(-50px, -50px);
+}
+
+.container2{
+    display: flex;
+    margin-top: 130px;
+    justify-content: space-around;
+}

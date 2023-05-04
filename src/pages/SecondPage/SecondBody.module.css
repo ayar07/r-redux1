@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100% !important;
+    height: 455px;
+}
+.box img {
+    width: 100%;
+    height: 450px;
+    /* object-fit: cover; */
+}
+
+header {
+    background-color: rgb(5, 80, 146);
+    color: white;
+}
+
+h1,
+h2 {
+    display: inline;
+}
+
+h1 {
+    text-indent: 70px;
+    margin-top: 60px;
+    padding: 40px;
+    padding-right: 450px;
+}
+
+h2 {
+    padding-left: 50px;
+}
+
+p {
+    border: 3px solid gray;
+    border-radius: 10px;
+    width: 600px;
+    margin: auto;
+    margin-top: 111px;
+    margin-bottom: 111px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
